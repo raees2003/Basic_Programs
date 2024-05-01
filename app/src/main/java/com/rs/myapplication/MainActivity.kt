@@ -354,9 +354,6 @@ fun Palindrome() {
                     fontSize = 15.sp,
                     fontWeight = FontWeight.ExtraBold,
                     color = Color.DarkGray
-                ),
-                keyboardOptions = KeyboardOptions.Default.copy(
-                    keyboardType = KeyboardType.Number
                 )
             )
 
@@ -619,3 +616,4 @@ fun Factorial() {
         }
     }
 }
+
