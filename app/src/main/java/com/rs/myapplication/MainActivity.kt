@@ -601,7 +601,7 @@ fun Factorial() {
                 for (i in input.toInt() downTo 1) {
                     f *= i
                     Text(
-                        text = "   ->   $f = $f x $i",
+                        text = "   ->   $i x $input = $f",
                         style = TextStyle(fontWeight = FontWeight.Bold),
                         modifier = Modifier.fillMaxWidth()
                     )
